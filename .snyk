@@ -1,0 +1,21 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - concurrently > lodash:
+        patched: '2021-10-16T01:13:55.241Z'
+    - '@openzeppelin/cli > cheerio > lodash':
+        patched: '2021-10-16T01:13:55.241Z'
+    - '@openzeppelin/cli > inquirer > lodash':
+        patched: '2021-10-16T01:13:55.241Z'
+    - '@openzeppelin/cli > truffle-config > lodash':
+        patched: '2021-10-16T01:13:55.241Z'
+    - openzeppelin-test-helpers > @truffle/contract > @truffle/interface-adapter > lodash:
+        patched: '2021-10-16T01:13:55.241Z'
+    - '@openzeppelin/cli > truffle-config > truffle-provider > truffle-interface-adapter > lodash':
+        patched: '2021-10-16T01:13:55.241Z'
+  SNYK-JS-TREEKILL-536781:
+    - concurrently > tree-kill:
+        patched: '2021-10-16T01:13:55.241Z'
