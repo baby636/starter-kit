@@ -32,7 +32,7 @@
     "@openzeppelin/contracts-ethereum-package": "^2.4.0",
     "@openzeppelin/upgrades": "^2.6.0",
     "@truffle/hdwallet-provider": "^1.0.23",
-    "dotenv": "^8.2.0"
+    "dotenv": "^17.2.1"
   },
   "devDependencies": {
     "@openzeppelin/cli": "^2.6.0",
